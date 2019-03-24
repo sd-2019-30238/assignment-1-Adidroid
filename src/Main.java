@@ -1,47 +1,36 @@
-import org.hibernate.HibernateException;
-import org.hibernate.Metamodel;
-import org.hibernate.query.Query;
+import Model.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import javax.persistence.metamodel.EntityType;
-
-import java.util.Map;
 
 public class Main {
-    private static final SessionFactory ourSessionFactory;
 
-    static {
+    public static void main(String[] args) {
+
+        SessionFactory factory = new Configuration().configure("hibernate.cfg.xml")
+                .addAnnotatedClass(User.class)
+                .buildSessionFactory();
+
+        Session session = factory.getCurrentSession();
+
         try {
-            Configuration configuration = new Configuration();
-            configuration.configure();
+            //User u=new User("Adi2348","12345");
+           // session.beginTransaction();
+            //session.save(u);
 
-            ourSessionFactory = configuration.buildSessionFactory();
-        } catch (Throwable ex) {
-            throw new ExceptionInInitializerError(ex);
-        }
-    }
+           // User user=session.get(User.class,"Adi2348");
+            //session.getTransaction().commit();
 
-    public static Session getSession() throws HibernateException {
-        return ourSessionFactory.openSession();
-    }
+           // System.out.println(user.getUsername());
 
-    public static void main(final String[] args) throws Exception {
-        final Session session = getSession();
-        try {
-            System.out.println("querying all the managed entities...");
-            final Metamodel metamodel = session.getSessionFactory().getMetamodel();
-            for (EntityType<?> entityType : metamodel.getEntities()) {
-                final String entityName = entityType.getName();
-                final Query query = session.createQuery("from " + entityName);
-                System.out.println("executing: " + query.getQueryString());
-                for (Object o : query.list()) {
-                    System.out.println("  " + o);
-                }
-            }
+
         } finally {
             session.close();
+
         }
+
     }
+
+
 }
