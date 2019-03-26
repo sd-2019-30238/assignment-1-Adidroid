@@ -1,11 +1,25 @@
 package Model;
 
+import javax.persistence.*;
+
+@Entity
 public class Book {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+    @Column
     private String title;
+    @Column
     private String author;
+    @Column
     private String genre;
+    @Column
     private int price;
+
+    public Book(){
+
+    }
 
     public Book(String title, String author, int price) {
         this.title = title;

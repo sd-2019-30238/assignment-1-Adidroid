@@ -1,15 +1,24 @@
 package Model;
 
+import javax.persistence.*;
+
+
 public class Borrow {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-    private String customerUsername;
-    private String bookId;
 
-    public Borrow(int id, String customerUsername, String bookId) {
+    @ManyToOne
+    private User customer;
+
+    @ManyToOne
+    private Book book;
+
+    public Borrow(int id, User customer, Book book) {
         this.id = id;
-        this.customerUsername = customerUsername;
-        this.bookId = bookId;
+        this.customer = customer;
+        this.book = book;
     }
 
     public int getId() {
@@ -20,19 +29,19 @@ public class Borrow {
         this.id = id;
     }
 
-    public String getCustomerUsername() {
-        return customerUsername;
+    public User getCustomer() {
+        return customer;
     }
 
-    public void setCustomerUsername(String customerUsername) {
-        this.customerUsername = customerUsername;
+    public void setCustomer(User customer) {
+        this.customer = customer;
     }
 
-    public String getBookId() {
-        return bookId;
+    public Book getBook() {
+        return book;
     }
 
-    public void setBookId(String bookId) {
-        this.bookId = bookId;
+    public void setBook(Book book) {
+        this.book = book;
     }
 }

@@ -1,11 +1,16 @@
 package Model;
 
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.MappedSuperclass;
 import java.util.Map;
 
+@MappedSuperclass
 public abstract class Account {
-
+    @Id
     private String username;
+    @Column
     private String password;
 
 

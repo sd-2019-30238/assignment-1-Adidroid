@@ -1,4 +1,6 @@
 package Model;
 
-public class PaymentPlan {
+public enum PaymentPlan {
+    MONTH,
+    YEAR
 }
