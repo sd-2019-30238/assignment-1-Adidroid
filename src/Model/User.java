@@ -9,7 +9,6 @@ import java.util.Map;
 public class User extends Account {
 
     @ManyToMany(fetch = FetchType.LAZY,cascade=CascadeType.ALL)
-
     private Map<Integer, Book> booksBucket;
 
     @Enumerated
