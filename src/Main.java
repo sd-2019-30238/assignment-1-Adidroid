@@ -14,7 +14,6 @@ public class Main {
                 .addAnnotatedClass(User.class)
                 .addAnnotatedClass(Book.class)
                 .addAnnotatedClass(Staff.class)
-                .addAnnotatedClass(Borrow.class)
                 .addAnnotatedClass(Library.class)
                 .addAnnotatedClass(PaymentPlan.class)
                 .buildSessionFactory();
