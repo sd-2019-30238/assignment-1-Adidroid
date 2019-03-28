@@ -1,16 +1,19 @@
 import Model.*;
+import PersistenceLayer.impl.LibraryDAO;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import java.util.HashMap;
+import java.util.List;
 
 
 public class Main {
 
+
+
     public static void main(String[] args) {
 
-        SessionFactory factory = new Configuration().configure("hibernate.cfg.xml")
+        SessionFactory factory= new Configuration().configure("hibernate.cfg.xml")
                 .addAnnotatedClass(User.class)
                 .addAnnotatedClass(Book.class)
                 .addAnnotatedClass(Staff.class)
@@ -22,16 +25,16 @@ public class Main {
         Session session = factory.getCurrentSession();
 
         try {
-            //Book book=new Book("test","Adi",15);
-           // User u=new User("Adi","12345",new HashMap<Integer, Book>(), PaymentPlan.MONTH);
-           // session.beginTransaction();
-           // session.save(book);
-           // session.save(u);
 
-           // User user=session.get(User.class,"Adi2348");
-          //  session.getTransaction().commit();
+           //new LibraryDAO(factory).save(new Library("test2",new HashMap<Integer, Book>(),new ArrayList<Staff>()));
+            LibraryDAO libDao=new LibraryDAO(factory);
 
-           // System.out.println(user.getUsername());
+            List<Library> list =libDao.getAll();
+            for(Library l:list)
+                System.out.println(l.getName());
+
+
+
 
 
         } finally {
