@@ -62,14 +62,18 @@ public class AbstractDAO<T> implements CRUD<T> {
     @Override
 
     public void update(T entity) {
+        beginTransaction();
         sessionFactory.getCurrentSession().merge(entity);
+        commitTransaction();
 
     }
 
     @Override
 
     public void delete(T entity) {
+        beginTransaction();
         sessionFactory.getCurrentSession().delete(entity);
+        commitTransaction();
 
     }
 

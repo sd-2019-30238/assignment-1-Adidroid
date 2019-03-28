@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5964495f-5091-4f39-8c75-c753d0652922" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PersistenceLayer/BookDAOInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersistenceLayer/CRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersistenceLayer/LibraryDAOInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersistenceLayer/StaffDAOInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersistenceLayer/UserDAOInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersistenceLayer/impl/BookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersistenceLayer/impl/LibraryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersistenceLayer/impl/StaffDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersistenceLayer/impl/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,17 +37,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="470">
+              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#554#555#0" expanded="true" />
                 <element signature="e#699#729#0" expanded="true" />
-                <element signature="e#1554#1555#0" expanded="true" />
-                <element signature="e#1645#1646#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
+                <element signature="e#1759#1760#0" expanded="true" />
                 <element signature="e#1658#1659#0" expanded="true" />
                 <element signature="e#1727#1728#0" expanded="true" />
                 <element signature="e#1770#1771#0" expanded="true" />
@@ -73,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
@@ -196,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/PersistenceLayer/impl/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/Model/Library.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java" />
       </list>
     </option>
   </component>
@@ -252,7 +237,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553779440211" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553779865059" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -300,18 +285,18 @@
       <workItem from="1553364882421" duration="1471000" />
       <workItem from="1553432326810" duration="2323000" />
       <workItem from="1553602043300" duration="2784000" />
-      <workItem from="1553626520454" duration="25785000" />
+      <workItem from="1553626520454" duration="26282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45454000" />
+    <option name="totallyTimeSpent" value="45951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18456376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18456376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -321,7 +306,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.19971672" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.19971672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -489,24 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#699#729#0" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1770#1771#0" expanded="true" />
-            <element signature="e#1799#1800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/LibraryDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -548,6 +515,24 @@
           <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#699#729#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
           </folding>
         </state>
       </provider>
