@@ -85,11 +85,11 @@ public class AbstractDAO<T> implements CRUD<T> {
         return this.sessionFactory;
     }
 
-    private void beginTransaction(){
+    protected void beginTransaction(){
         sessionFactory.getCurrentSession().beginTransaction();
     }
 
-    private void commitTransaction(){
+    protected void commitTransaction(){
         sessionFactory.getCurrentSession().getTransaction().commit();
     }
 

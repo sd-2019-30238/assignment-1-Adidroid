@@ -12,7 +12,10 @@ public class StaffDAO extends AbstractDAO<Staff> implements StaffDAOInterface {
 
     @Override
     public Staff findByUsername(String username) {
-        return sessionFactory.getCurrentSession().get(Staff.class, username);
+        beginTransaction();
+        Staff staff=sessionFactory.getCurrentSession().get(Staff.class, username);
+        commitTransaction();
+        return staff;
 
     }
 }

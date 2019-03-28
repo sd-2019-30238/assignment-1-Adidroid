@@ -12,6 +12,9 @@ public class UserDAO extends AbstractDAO<User> implements UserDAOInterface {
 
     @Override
     public User findByUsername(String username) {
-        return  sessionFactory.getCurrentSession().get(User.class,username);
+        beginTransaction();
+        User user= sessionFactory.getCurrentSession().get(User.class,username);
+        commitTransaction();
+        return user;
     }
 }
