@@ -1,5 +1,7 @@
 import Model.*;
 import PersistenceLayer.impl.LibraryDAO;
+import Presentation.Login;
+import Presentation.Register;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -12,6 +14,9 @@ public class Main {
 
 
     public static void main(String[] args) {
+        Login login=new Login();
+        login.setVisible(true);
+
 
         SessionFactory factory= new Configuration().configure("hibernate.cfg.xml")
                 .addAnnotatedClass(User.class)
