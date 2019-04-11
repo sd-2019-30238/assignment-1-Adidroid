@@ -1,11 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Model/Library.java" line="7" mnemonic="2" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="5964495f-5091-4f39-8c75-c753d0652922" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BusinessLogic/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessLogic/AuthorRecommendation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessLogic/GenreRecommendation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessLogic/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessLogic/Recommendation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessLogic/RecommendationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessLogic/Service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessLogic/Service/StaffService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessLogic/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessLogic/factoryInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PersistenceLayer/SessionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Model/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Model/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Model/PaymentPlan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Model/Staff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/BookDAOInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/BookDAOInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/CRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/CRUD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/LibraryDAOInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/StaffDAOInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/StaffDAOInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/UserDAOInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/UserDAOInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/impl/AbstractDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/impl/AbstractDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/impl/BookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/impl/BookDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/impl/LibraryDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/impl/StaffDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/impl/StaffDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/impl/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/PersistenceLayer/impl/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Presentation/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Presentation/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Presentation/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Presentation/Login$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Presentation/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Presentation/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Presentation/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Presentation/Register$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Presentation/Register$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Presentation/Register$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Presentation/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Presentation/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Presentation/StaffApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Presentation/StaffApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Presentation/StaffApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Presentation/StaffApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Presentation/UserApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Presentation/UserApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/Presentation/UserApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/Presentation/UserApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Book management service/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Book management service/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BusinessLogic/Model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BusinessLogic/Model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/PaymentPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BusinessLogic/Model/PaymentPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BusinessLogic/Model/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersistenceLayer/BookDAOInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceLayer/BookDAOInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersistenceLayer/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceLayer/CRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersistenceLayer/LibraryDAOInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersistenceLayer/StaffDAOInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceLayer/StaffDAOInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersistenceLayer/UserDAOInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceLayer/UserDAOInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersistenceLayer/impl/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceLayer/impl/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersistenceLayer/impl/LibraryDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersistenceLayer/impl/StaffDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceLayer/impl/StaffDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersistenceLayer/impl/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersistenceLayer/impl/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/StaffApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/StaffApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/UserApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/UserApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,70 +75,145 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="251">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Presentation/StaffApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="144" column="26" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
-              <folding>
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#725#755#0" expanded="true" />
-                <element signature="e#2587#2588#0" expanded="true" />
-                <element signature="e#2645#2646#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="917">
-              <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1668#1669#0" expanded="true" />
-                <element signature="e#1717#1718#0" expanded="true" />
-                <element signature="e#1759#1760#0" expanded="true" />
-                <element signature="e#1799#1800#0" expanded="true" />
-                <element signature="e#1868#1869#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Validator.java">
+        <entry file="file://$PROJECT_DIR$/src/Presentation/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="248">
+              <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/BookDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Recommendation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Presentation/UserApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BusinessLogic/RecommendationFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/BusinessLogic.AuthorRecommendation">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>BusinessLogic.AuthorRecommendation</OriginalElement>
+              <nodes>
+                <node x="584.0" y="101.0">BusinessLogic.GenreRecommendation</node>
+                <node x="433.0" y="0.0">BusinessLogic.Recommendation</node>
+                <node x="397.66666666666663" y="268.0">BusinessLogic.RecommendationFactory</node>
+                <node x="0.0" y="124.0">BusinessLogic.AuthorRecommendation</node>
+                <node x="227.0" y="124.0">BusinessLogic.factoryInterface</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="BusinessLogic.GenreRecommendation" target="BusinessLogic.Recommendation">
+                  <point x="0.0" y="-48.5" />
+                  <point x="687.5" y="81.0" />
+                  <point x="562.375" y="81.0" />
+                  <point x="25.875" y="25.5" />
+                </edge>
+                <edge source="BusinessLogic.factoryInterface" target="BusinessLogic.Recommendation">
+                  <point x="0.0" y="-25.5" />
+                  <point x="385.5" y="81.0" />
+                  <point x="510.625" y="81.0" />
+                  <point x="-25.875" y="25.5" />
+                </edge>
+                <edge source="BusinessLogic.AuthorRecommendation" target="BusinessLogic.Recommendation">
+                  <point x="0.0" y="-25.5" />
+                  <point x="103.5" y="71.0" />
+                  <point x="458.875" y="71.0" />
+                  <point x="-77.625" y="25.5" />
+                </edge>
+                <edge source="BusinessLogic.RecommendationFactory" target="BusinessLogic.GenreRecommendation">
+                  <point x="39.625" y="-25.5" />
+                  <point x="595.7916666666666" y="238.0" />
+                  <point x="739.25" y="238.0" />
+                  <point x="51.75" y="48.5" />
+                </edge>
+                <edge source="BusinessLogic.RecommendationFactory" target="BusinessLogic.Recommendation">
+                  <point x="118.875" y="-25.5" />
+                  <point x="675.0416666666666" y="248.0" />
+                  <point x="801.5" y="248.0" />
+                  <point x="801.5" y="71.0" />
+                  <point x="614.125" y="71.0" />
+                  <point x="77.625" y="25.5" />
+                </edge>
+                <edge source="BusinessLogic.RecommendationFactory" target="BusinessLogic.AuthorRecommendation">
+                  <point x="-118.875" y="-25.5" />
+                  <point x="437.29166666666663" y="248.0" />
+                  <point x="103.5" y="248.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="BusinessLogic.GenreRecommendation" target="BusinessLogic.GenreRecommendation">
+                  <point x="-51.75" y="48.5" />
+                  <point x="635.75" y="218.0" />
+                  <point x="564.0" y="218.0" />
+                  <point x="564.0" y="149.5" />
+                  <point x="-103.5" y="-0.0" />
+                </edge>
+                <edge source="BusinessLogic.RecommendationFactory" target="BusinessLogic.factoryInterface">
+                  <point x="-39.625" y="-25.5" />
+                  <point x="516.5416666666666" y="238.0" />
+                  <point x="385.5" y="238.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-154.0" y="125.0" />
+              <SelectedNodes>
+                <node>BusinessLogic.GenreRecommendation</node>
+                <node>BusinessLogic.Recommendation</node>
+                <node>BusinessLogic.RecommendationFactory</node>
+                <node>BusinessLogic.AuthorRecommendation</node>
+                <node>BusinessLogic.factoryInterface</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -103,6 +236,11 @@
       <find>jlabel1</find>
       <find>jLabel1</find>
       <find>jtextField1</find>
+      <find>model</find>
+      <find>jButton1</find>
+      <find>group</find>
+      <find>borr</find>
+      <find>borrow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,14 +249,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Account.java" />
         <option value="$PROJECT_DIR$/src/Book.java" />
-        <option value="$PROJECT_DIR$/src/Model/PaymentPlan.java" />
-        <option value="$PROJECT_DIR$/src/Model/Account.java" />
         <option value="$PROJECT_DIR$/src/Model/Staff.java" />
-        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/Model/Borrow.java" />
-        <option value="$PROJECT_DIR$/src/Model/User.java" />
         <option value="$PROJECT_DIR$/src/PersistenceLayer/UserDao.java" />
         <option value="$PROJECT_DIR$/src/PersistenceLayer/Dao.java" />
         <option value="$PROJECT_DIR$/src/PersistenceLayer/DaoInterf.java" />
@@ -131,26 +264,52 @@
         <option value="$PROJECT_DIR$/src/PersistenceLayer/BookDAOInterface.java" />
         <option value="$PROJECT_DIR$/src/PersistenceLayer/StaffDAOInterface.java" />
         <option value="$PROJECT_DIR$/src/PersistenceLayer/LibraryDAOInterface.java" />
-        <option value="$PROJECT_DIR$/src/Model/Book.java" />
-        <option value="$PROJECT_DIR$/src/PersistenceLayer/CRUD.java" />
         <option value="$PROJECT_DIR$/src/PersistenceLayer/AbstractDAO.java" />
         <option value="$PROJECT_DIR$/src/PersistenceLayer/LibraryDAO.java" />
         <option value="$PROJECT_DIR$/src/PersistenceLayer/BookDAO.java" />
         <option value="$PROJECT_DIR$/src/PersistenceLayer/StaffDAO.java" />
         <option value="$PROJECT_DIR$/src/PersistenceLayer/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/Model/Library.java" />
-        <option value="$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java" />
         <option value="$PROJECT_DIR$/src/PersistenceLayer/impl/StaffDAO.java" />
-        <option value="$PROJECT_DIR$/src/PersistenceLayer/impl/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Service/BookService.java" />
+        <option value="$PROJECT_DIR$/src/Model/Library.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/Service/LibraryService.java" />
+        <option value="$PROJECT_DIR$/src/Main/SessionUtil.java" />
+        <option value="$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java" />
+        <option value="$PROJECT_DIR$/src/PersistenceLayer/CRUD.java" />
+        <option value="$PROJECT_DIR$/src/Model/PaymentPlan.java" />
         <option value="$PROJECT_DIR$/src/Presentation/Register.java" />
-        <option value="$PROJECT_DIR$/src/Presentation/UserApp.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/Model/Account.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/Model/User.java" />
+        <option value="$PROJECT_DIR$/src/PersistenceLayer/impl/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/Main/Main.java" />
         <option value="$PROJECT_DIR$/src/Presentation/Login.java" />
+        <option value="$PROJECT_DIR$/src/Model/Book.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/Service/StaffService.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/Genres.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/Genre.java" />
         <option value="$PROJECT_DIR$/src/Presentation/StaffApp.java" />
+        <option value="$PROJECT_DIR$/src/PersistenceLayer/impl/BookDAO.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/Service/BookService.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/RecommendationInterface.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/factoryInterface.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/GenreRecommendation.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/Recommendation.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/AuthorRecommendation.java" />
+        <option value="$PROJECT_DIR$/src/Presentation/UserApp.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLogic/RecommendationFactory.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -164,7 +323,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,10 +335,17 @@
               <item name="Book management service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Book management service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Book management service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BusinessLogic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -191,13 +356,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554392896258" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555008598761" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,7 +379,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
       <module name="Book management service" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -240,18 +406,22 @@
       <workItem from="1553432326810" duration="2323000" />
       <workItem from="1553602043300" duration="2784000" />
       <workItem from="1553626520454" duration="27360000" />
-      <workItem from="1554373885767" duration="10297000" />
+      <workItem from="1554373885767" duration="22210000" />
+      <workItem from="1554631867308" duration="277000" />
+      <workItem from="1554632181347" duration="11534000" />
+      <workItem from="1554818787774" duration="1007000" />
+      <workItem from="1554966396777" duration="28147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57326000" />
+    <option name="totallyTimeSpent" value="110204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18724832" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17986578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -260,64 +430,30 @@
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.16005665" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.13456091" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.04249292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.28186968" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013423" side_tool="true" weight="0.26912183" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.16713881" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.15722379" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.3295302" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18456376" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.19971672" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.28186968" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Spring" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -327,33 +463,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Borrow.java" />
-    <entry file="file://$PROJECT_DIR$/src/Model/Staff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/PaymentPlan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/DaoInterf.java" />
     <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/BookDAOInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/UserDAOInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
@@ -367,48 +478,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/LibraryDAOInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/LibraryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/LibraryDAOInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/LibraryDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/StaffDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -419,9 +490,193 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.4.1.Final.jar!/org/hibernate/SessionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Service/LibraryService.java" />
+    <entry file="file://$PROJECT_DIR$/src/Model/Library.java" />
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/CRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/UserDAOInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Model/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Model/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Presentation/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="161" column="26" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Model/PaymentPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Presentation/StaffApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8842#8843#0" expanded="true" />
+            <element signature="e#8883#8884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Service/StaffService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+          <folding>
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="406">
+          <caret line="40" column="25" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="40" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/BookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -429,142 +684,437 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Service/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="393">
+          <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/CRUD.java">
+    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/SessionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/GenreRecommendation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        <state relative-caret-position="200">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/AuthorRecommendation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Recommendation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presentation/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="95" column="81" selection-start-line="95" selection-start-column="81" selection-end-line="95" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#501#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Presentation/UserApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="270">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
           <folding>
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#404#434#0" expanded="true" />
-            <element signature="e#439#528#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-Book management service">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-Book management service</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="110.0" y="14.5" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">BusinessLogic</node>
+            <node x="" y="">images</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">org</node>
+            <node x="" y="">antlr</node>
+            <node x="" y="">google</node>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">Presentation</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">PersistenceLayer</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">Model</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">net</node>
+            <node x="" y="">Main</node>
+            <node x="" y="">groovyjarjarantlr</node>
+            <node x="" y="">javassist</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="266.5" y="270.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/BusinessLogic.Service">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>BusinessLogic.Service</OriginalElement>
+          <nodes>
+            <node x="" y="">BusinessLogic.Service.UserService</node>
+            <node x="" y="">BusinessLogic.Service.StaffService</node>
+            <node x="" y="">BusinessLogic.Service.BookService</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="123.0" y="231.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/PersistenceLayer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>PersistenceLayer</OriginalElement>
+          <nodes>
+            <node x="" y="">PersistenceLayer.impl</node>
+            <node x="" y="">PersistenceLayer.BookDAOInterface</node>
+            <node x="" y="">PersistenceLayer.UserDAOInterface</node>
+            <node x="" y="">PersistenceLayer.CRUD</node>
+            <node x="" y="">PersistenceLayer.SessionUtil</node>
+            <node x="" y="">PersistenceLayer.StaffDAOInterface</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="319.5" y="241.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/BusinessLogic">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>BusinessLogic</OriginalElement>
+          <nodes>
+            <node x="" y="">BusinessLogic.GenreRecommendation</node>
+            <node x="" y="">BusinessLogic.Recommendation</node>
+            <node x="" y="">BusinessLogic.RecommendationFactory</node>
+            <node x="" y="">BusinessLogic.Validator</node>
+            <node x="" y="">BusinessLogic.AuthorRecommendation</node>
+            <node x="" y="">BusinessLogic.Service</node>
+            <node x="" y="">BusinessLogic.factoryInterface</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="239.0" y="234.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/Intelij Projects/Book management service/src/BusinessLogic;D:/Intelij Projects/Book management service/src/BusinessLogic/Service;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/BusinessLogic;D:/Intelij Projects/Book management service/src/BusinessLogic/Service;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="613.0" y="290.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Presentation.Register">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Presentation.Register</OriginalElement>
+          <nodes>
+            <node x="" y="">Model.Staff</node>
+            <node x="" y="">Presentation.Login</node>
+            <node x="" y="">Model.Account</node>
+            <node x="" y="">PersistenceLayer.CRUD</node>
+            <node x="" y="">BusinessLogic.Recommendation</node>
+            <node x="" y="">BusinessLogic.Service.BookService</node>
+            <node x="" y="">Model.PaymentPlan</node>
+            <node x="" y="">javax.swing.JFrame</node>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">PersistenceLayer.impl.UserDAO</node>
+            <node x="" y="">BusinessLogic.factoryInterface</node>
+            <node x="" y="">Model.User</node>
+            <node x="" y="">PersistenceLayer.impl.AbstractDAO</node>
+            <node x="" y="">Presentation.UserApp</node>
+            <node x="" y="">PersistenceLayer.impl.StaffDAO</node>
+            <node x="" y="">Presentation.Register</node>
+            <node x="" y="">BusinessLogic.AuthorRecommendation</node>
+            <node x="" y="">Model.Book</node>
+            <node x="" y="">PersistenceLayer.StaffDAOInterface</node>
+            <node x="" y="">BusinessLogic.Service.UserService</node>
+            <node x="" y="">BusinessLogic.GenreRecommendation</node>
+            <node x="" y="">BusinessLogic.Service.StaffService</node>
+            <node x="" y="">BusinessLogic.RecommendationFactory</node>
+            <node x="" y="">PersistenceLayer.BookDAOInterface</node>
+            <node x="" y="">Presentation.StaffApp</node>
+            <node x="" y="">PersistenceLayer.SessionUtil</node>
+            <node x="" y="">PersistenceLayer.impl.BookDAO</node>
+            <node x="" y="">PersistenceLayer.UserDAOInterface</node>
+            <node x="" y="">Main.Main</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8808278867102396" x="562.2154340836013" y="352.779866435815" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/Intelij Projects/Book management service/src/BusinessLogic;D:/Intelij Projects/Book management service/src/Main;D:/Intelij Projects/Book management service/src/Model;D:/Intelij Projects/Book management service/src/PersistenceLayer;D:/Intelij Projects/Book management service/src/Presentation;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/BusinessLogic;D:/Intelij Projects/Book management service/src/Main;D:/Intelij Projects/Book management service/src/Model;D:/Intelij Projects/Book management service/src/PersistenceLayer;D:/Intelij Projects/Book management service/src/Presentation;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="611.0" y="327.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/BusinessLogic.Service.BookService">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>BusinessLogic.Service.BookService</OriginalElement>
+          <nodes>
+            <node x="" y="">Model.Staff</node>
+            <node x="" y="">Presentation.Login</node>
+            <node x="" y="">Model.Account</node>
+            <node x="" y="">PersistenceLayer.CRUD</node>
+            <node x="" y="">BusinessLogic.Recommendation</node>
+            <node x="" y="">BusinessLogic.Service.BookService</node>
+            <node x="" y="">Model.PaymentPlan</node>
+            <node x="" y="">PersistenceLayer.impl.UserDAO</node>
+            <node x="" y="">BusinessLogic.factoryInterface</node>
+            <node x="" y="">PersistenceLayer.impl.AbstractDAO</node>
+            <node x="" y="">Presentation.UserApp</node>
+            <node x="" y="">PersistenceLayer.impl.StaffDAO</node>
+            <node x="" y="">Presentation.Register</node>
+            <node x="" y="">BusinessLogic.AuthorRecommendation</node>
+            <node x="" y="">Model.Book</node>
+            <node x="" y="">PersistenceLayer.StaffDAOInterface</node>
+            <node x="" y="">BusinessLogic.Service.UserService</node>
+            <node x="" y="">BusinessLogic.GenreRecommendation</node>
+            <node x="" y="">BusinessLogic.Service.StaffService</node>
+            <node x="" y="">BusinessLogic.RecommendationFactory</node>
+            <node x="" y="">PersistenceLayer.BookDAOInterface</node>
+            <node x="" y="">Presentation.StaffApp</node>
+            <node x="" y="">PersistenceLayer.SessionUtil</node>
+            <node x="" y="">PersistenceLayer.impl.BookDAO</node>
+            <node x="" y="">PersistenceLayer.UserDAOInterface</node>
+            <node x="" y="">Main.Main</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6676860346585117" x="902.0" y="480.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/RecommendationFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/factoryInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/BusinessLogic.AuthorRecommendation">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>BusinessLogic.AuthorRecommendation</OriginalElement>
+          <nodes>
+            <node x="584.0" y="101.0">BusinessLogic.GenreRecommendation</node>
+            <node x="433.0" y="0.0">BusinessLogic.Recommendation</node>
+            <node x="397.66666666666663" y="268.0">BusinessLogic.RecommendationFactory</node>
+            <node x="0.0" y="124.0">BusinessLogic.AuthorRecommendation</node>
+            <node x="227.0" y="124.0">BusinessLogic.factoryInterface</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="BusinessLogic.GenreRecommendation" target="BusinessLogic.Recommendation">
+              <point x="0.0" y="-48.5" />
+              <point x="687.5" y="81.0" />
+              <point x="562.375" y="81.0" />
+              <point x="25.875" y="25.5" />
+            </edge>
+            <edge source="BusinessLogic.factoryInterface" target="BusinessLogic.Recommendation">
+              <point x="0.0" y="-25.5" />
+              <point x="385.5" y="81.0" />
+              <point x="510.625" y="81.0" />
+              <point x="-25.875" y="25.5" />
+            </edge>
+            <edge source="BusinessLogic.AuthorRecommendation" target="BusinessLogic.Recommendation">
+              <point x="0.0" y="-25.5" />
+              <point x="103.5" y="71.0" />
+              <point x="458.875" y="71.0" />
+              <point x="-77.625" y="25.5" />
+            </edge>
+            <edge source="BusinessLogic.RecommendationFactory" target="BusinessLogic.GenreRecommendation">
+              <point x="39.625" y="-25.5" />
+              <point x="595.7916666666666" y="238.0" />
+              <point x="739.25" y="238.0" />
+              <point x="51.75" y="48.5" />
+            </edge>
+            <edge source="BusinessLogic.RecommendationFactory" target="BusinessLogic.Recommendation">
+              <point x="118.875" y="-25.5" />
+              <point x="675.0416666666666" y="248.0" />
+              <point x="801.5" y="248.0" />
+              <point x="801.5" y="71.0" />
+              <point x="614.125" y="71.0" />
+              <point x="77.625" y="25.5" />
+            </edge>
+            <edge source="BusinessLogic.RecommendationFactory" target="BusinessLogic.AuthorRecommendation">
+              <point x="-118.875" y="-25.5" />
+              <point x="437.29166666666663" y="248.0" />
+              <point x="103.5" y="248.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="BusinessLogic.GenreRecommendation" target="BusinessLogic.GenreRecommendation">
+              <point x="-51.75" y="48.5" />
+              <point x="635.75" y="218.0" />
+              <point x="564.0" y="218.0" />
+              <point x="564.0" y="149.5" />
+              <point x="-103.5" y="-0.0" />
+            </edge>
+            <edge source="BusinessLogic.RecommendationFactory" target="BusinessLogic.factoryInterface">
+              <point x="-39.625" y="-25.5" />
+              <point x="516.5416666666666" y="238.0" />
+              <point x="385.5" y="238.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-154.0" y="125.0" />
+          <SelectedNodes>
+            <node>BusinessLogic.GenreRecommendation</node>
+            <node>BusinessLogic.Recommendation</node>
+            <node>BusinessLogic.RecommendationFactory</node>
+            <node>BusinessLogic.AuthorRecommendation</node>
+            <node>BusinessLogic.factoryInterface</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Presentation/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+        <state relative-caret-position="248">
+          <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presentation/StaffApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="144" column="26" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
-          <folding>
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#725#755#0" expanded="true" />
-            <element signature="e#2587#2588#0" expanded="true" />
-            <element signature="e#2645#2646#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersistenceLayer/impl/AbstractDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-            <element signature="e#1799#1800#0" expanded="true" />
-            <element signature="e#1868#1869#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BusinessLogic/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -585,7 +1135,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Hibernate</last-edited>
+          <last-edited>Hibernate (Book management service)|Hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

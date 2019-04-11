@@ -15,7 +15,7 @@ public interface CRUD<T> {
 
     void delete(T t);
 
-
+     void deleteById( int entityId );
 
 }
 

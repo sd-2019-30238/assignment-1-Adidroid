@@ -77,6 +77,11 @@ public class AbstractDAO<T> implements CRUD<T> {
 
     }
 
+    public void deleteById( int entityId ) {
+        T entity = get( entityId );
+        delete( entity );
+    }
+
     public void setSessionFactory(SessionFactory sessionFactory) {
         this.sessionFactory = sessionFactory;
     }

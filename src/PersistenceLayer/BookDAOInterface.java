@@ -1,6 +1,6 @@
 package PersistenceLayer;
 
-import Model.Book;
+import BusinessLogic.Model.Book;
 
 public interface BookDAOInterface extends CRUD<Book> {
 }

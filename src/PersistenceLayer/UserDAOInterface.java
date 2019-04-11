@@ -1,6 +1,6 @@
 package PersistenceLayer;
 
-import Model.User;
+import BusinessLogic.Model.User;
 
 public interface UserDAOInterface extends CRUD<User> {
 

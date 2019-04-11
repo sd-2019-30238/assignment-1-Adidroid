@@ -4,6 +4,8 @@
 <hibernate-configuration>
     <session-factory>
 
+        
+
         <property name = "hibernate.dialect">
             org.hibernate.dialect.MariaDBDialect
         </property>
@@ -17,7 +19,7 @@
         </property>
 
         <property name = "hibernate.connection.url">
-            jdbc:mysql://localhost:3306/LibraryDB
+            jdbc:mysql://localhost:3306/library
         </property>
 
         <property name = "hibernate.connection.username">
@@ -41,5 +43,9 @@
     </session-factory>
 
 
+
+
 </hibernate-configuration>
+
+
 

@@ -1,6 +1,6 @@
 package PersistenceLayer.impl;
 
-import Model.Staff;
+import BusinessLogic.Model.Staff;
 import PersistenceLayer.StaffDAOInterface;
 import org.hibernate.SessionFactory;
 

@@ -1,5 +1,11 @@
 package Presentation;
 
+import BusinessLogic.Service.StaffService;
+import BusinessLogic.Service.UserService;
+import PersistenceLayer.SessionUtil;
+import BusinessLogic.Model.User;
+import PersistenceLayer.impl.UserDAO;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -7,13 +13,13 @@ import java.awt.event.ActionListener;
 public class Login extends JFrame {
 
 
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton loginBtn;
+    private javax.swing.JButton registerBtn;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField usernameField;
+    private javax.swing.JPasswordField passwordField;
 
 
     public Login() {
@@ -25,16 +31,15 @@ public class Login extends JFrame {
     @SuppressWarnings("unchecked")
     private void initComponents() {
 
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
+        usernameField = new javax.swing.JTextField();
+        passwordField = new javax.swing.JPasswordField();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        loginBtn = new javax.swing.JButton();
+        registerBtn = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
 
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -46,9 +51,9 @@ public class Login extends JFrame {
         jLabel3.setFont(new java.awt.Font("Segoe Print", 1, 36)); // NOI18N
         jLabel3.setText("Your books everywhere");
 
-        jButton1.setText("Login");
+        loginBtn.setText("Login");
 
-        jButton2.setText("Register");
+        registerBtn.setText("Register");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -64,12 +69,12 @@ public class Login extends JFrame {
                                                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                                        .addComponent(jTextField1)
-                                                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 347, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(usernameField)
+                                                        .addComponent(passwordField, javax.swing.GroupLayout.PREFERRED_SIZE, 347, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                                .addComponent(jButton1)
+                                                                .addComponent(loginBtn)
                                                                 .addGap(18, 18, 18)
-                                                                .addComponent(jButton2)
+                                                                .addComponent(registerBtn)
                                                                 .addGap(94, 94, 94)))))
                                 .addGap(68, 68, 68))
         );
@@ -80,16 +85,16 @@ public class Login extends JFrame {
                                 .addComponent(jLabel3)
                                 .addGap(136, 136, 136)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(usernameField, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addComponent(jLabel1))
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(passwordField, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addComponent(jLabel2))
                                 .addGap(26, 26, 26)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(jButton1)
-                                        .addComponent(jButton2))
+                                        .addComponent(loginBtn)
+                                        .addComponent(registerBtn))
                                 .addContainerGap(117, Short.MAX_VALUE))
         );
 
@@ -98,8 +103,8 @@ public class Login extends JFrame {
         setResizable(false);
     }
 
-  private void actionListenerts(){
-        jButton2.addActionListener(new ActionListener() {
+    private void actionListenerts() {
+        registerBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
@@ -109,16 +114,28 @@ public class Login extends JFrame {
             }
         });
 
-        jButton1.addActionListener(new ActionListener() {
+        loginBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               // new UserApp().setVisible(true);
-                new StaffApp().setVisible(true);
-                Login.this.dispose();
+
+                if (UserService.checkUser(usernameField.getText(),String.valueOf( passwordField.getPassword()))) {
+                   // new StaffApp().setVisible(true);
+
+                   User user=new UserDAO(SessionUtil.getSessionFactory()).findByUsername(usernameField.getText());
+                   new UserApp(user).setVisible(true);
+                    Login.this.dispose();
+
+                } else if(StaffService.checkStaff(usernameField.getText(),String.valueOf( passwordField.getPassword()))){
+                    new StaffApp().setVisible(true);
+                    Login.this.dispose();
+                }
+                else
+                    JOptionPane.showMessageDialog(null, "Wrong username or password");
+
             }
         });
 
-  }
+    }
 
 
 }
