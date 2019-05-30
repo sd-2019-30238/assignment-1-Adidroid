@@ -1,5 +1,6 @@
 package com.a2.springboot.web.Assignment2.Model.Entities;
 
+import com.a2.springboot.web.Assignment2.Model.Decorator.BookInterface;
 import com.a2.springboot.web.Assignment2.Model.Entities.Observer.Observable;
 import com.a2.springboot.web.Assignment2.Model.Entities.Observer.Observer;
 
@@ -8,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Book implements Observable {
+public class Book implements Observable, BookInterface {
 
 
 
